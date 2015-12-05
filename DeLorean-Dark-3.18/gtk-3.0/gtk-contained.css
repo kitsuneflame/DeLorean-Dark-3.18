@@ -2181,8 +2181,8 @@ GtkComboBox {
   border-image: linear-gradient(to right, rgba(161, 161, 161, 0), alpha(#fdfdff,0.95) 20%, alpha(#fdfdff,0.95) 80%, rgba(161, 161, 161, 0) 100%) 1 0 0 0/ 1px 0 0 0 stretch;
   border-radius: 7px 7px 0 0;
   border-bottom-color: #1c1c1e;
-  background-color: transparent;
-  background-image: linear-gradient(to bottom, rgba(255,255,255,0.22), rgba(255,255,255,0.06) ), url("assets/background-dark-transparent.png");
+  background-color: #2c2c2e;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.22), rgba(255,255,255,0.06) ), url("assets/background-dark.png");
   box-shadow: 0 1px #49494b, inset 0 -1px 2px #49494b, inset 0 1px 2px alpha(white,0.35), inset 0 -1px #1c1c1e;
   text-shadow: 0 1px alpha(white,0.65); }
 
@@ -2200,8 +2200,8 @@ GtkComboBox {
   .titlebar.header-bar:backdrop {
     border-color: #202022;
     border-image: linear-gradient(to right, rgba(161, 161, 161, 0), alpha(#dddddf,0.95) 20%, alpha(#dddddf,0.95) 80%, rgba(161, 161, 161, 0) 100%) 1 0 0 0/ 1px 0 0 0 stretch;
-    background-color: transparent;
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.15), rgba(255,255,255,0.04)), url("assets/background-dark-transparent-backdrop.png");
+    background-color: #2c2c2e;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.15), rgba(255,255,255,0.04)), /* url("assets/background-dark-transparent-backdrop.png"); */
     box-shadow: 0 1px #4c4c4e,inset 0 -1px 0px #4c4c4e, inset 0 1px 2px alpha(white,0.15), inset 0 -1px #202022; }
 
 .ssd .titlebar:backdrop {
